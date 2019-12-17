@@ -1,0 +1,22 @@
+{
+  "name": "JWBasicFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of JWBasicFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liujunwei/JWBasicFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liujunwei": "liujunwei0422@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/liujunwei/JWBasicFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWBasicFoundation/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JWBasicFoundation (0.1.0)
+
+DEPENDENCIES:
+  - JWBasicFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  JWBasicFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWBasicFoundation: 881a109cfd39a257d6286cfeb410c058dfa6bc2f
+
+PODFILE CHECKSUM: 9c8fc5d68116dfac513eceb4e19d703ae58144c8
+
+COCOAPODS: 1.8.4

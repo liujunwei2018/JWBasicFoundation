@@ -1,0 +1,6 @@
+framework module JWBasicFoundation {
+  umbrella header "JWBasicFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
