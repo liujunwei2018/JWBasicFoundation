@@ -1,5 +1,19 @@
 PODS:
-  - JWBasicFoundation (0.1.0)
+  - JWBasicFoundation (0.1.0):
+    - JWBasicFoundation/NSArray (= 0.1.0)
+    - JWBasicFoundation/NSData (= 0.1.0)
+    - JWBasicFoundation/NSDate (= 0.1.0)
+    - JWBasicFoundation/NSDictionary (= 0.1.0)
+    - JWBasicFoundation/NSNotificationCenter (= 0.1.0)
+    - JWBasicFoundation/NSString (= 0.1.0)
+  - JWBasicFoundation/NSArray (0.1.0):
+    - JWBasicFoundation/NSArray/NSMutableArray (= 0.1.0)
+  - JWBasicFoundation/NSArray/NSMutableArray (0.1.0)
+  - JWBasicFoundation/NSData (0.1.0)
+  - JWBasicFoundation/NSDate (0.1.0)
+  - JWBasicFoundation/NSDictionary (0.1.0)
+  - JWBasicFoundation/NSNotificationCenter (0.1.0)
+  - JWBasicFoundation/NSString (0.1.0)
 
 DEPENDENCIES:
   - JWBasicFoundation (from `../`)
@@ -9,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWBasicFoundation: 881a109cfd39a257d6286cfeb410c058dfa6bc2f
+  JWBasicFoundation: ec75eed03dd226a5e04e51d3afc1f318b1630efd
 
 PODFILE CHECKSUM: 9c8fc5d68116dfac513eceb4e19d703ae58144c8
 

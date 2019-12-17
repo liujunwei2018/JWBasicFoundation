@@ -21,22 +21,41 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liujunwei/JWBasicFoundation'
+  s.homepage         = 'https://github.com/liujunwei2018/JWBasicFoundation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liujunwei' => 'liujunwei0422@icloud.com' }
-  s.source           = { :git => 'https://github.com/liujunwei/JWBasicFoundation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liujunwei2018/JWBasicFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JWBasicFoundation/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JWBasicFoundation' => ['JWBasicFoundation/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'NSArray' do |nSArray|
+    nSArray.source_files = 'JWBasicFoundation/Classes/NSArray/*.{h,m}'
+    nSArray.public_header_files = 'JWBasicFoundation/Classes/NSArray/*.h'
+      nSArray.subspec 'NSMutableArray' do |nSMutableArray|
+         nSMutableArray.source_files = 'JWBasicFoundation/Classes/NSArray/NSMutableArray/*.{h,m}'
+         nSMutableArray.public_header_files = 'JWBasicFoundation/Classes/NSArray/NSMutableArray/*.h'
+      end
+  end
+  s.subspec 'NSDictionary' do |nSDictionary|
+    nSDictionary.source_files = 'JWBasicFoundation/Classes/NSDictionary/**/*.{h,m}'
+    nSDictionary.public_header_files = 'JWBasicFoundation/Classes/NSDictionary/**/*.h'
+  end
+  s.subspec 'NSData' do |nSData|
+    nSData.source_files = 'JWBasicFoundation/Classes/NSData/**/*.{h,m}'
+    nSData.public_header_files = 'JWBasicFoundation/Classes/NSData/**/*.h'
+  end
+  s.subspec 'NSDate' do |nSDate|
+    nSDate.source_files = 'JWBasicFoundation/Classes/NSDate/**/*.{h,m}'
+    nSDate.public_header_files = 'JWBasicFoundation/Classes/NSDate/**/*.h'
+  end
+  s.subspec 'NSNotificationCenter' do |nSNotificationCenter|
+    nSNotificationCenter.source_files = 'JWBasicFoundation/Classes/NSNotificationCenter/**/*.{h,m}'
+    nSNotificationCenter.public_header_files = 'JWBasicFoundation/Classes/NSNotificationCenter/**/*.h'
+  end
+  s.subspec 'NSString' do |nSString|
+    nSString.source_files = 'JWBasicFoundation/Classes/NSString/**/*.{h,m}'
+    nSString.public_header_files = 'JWBasicFoundation/Classes/NSString/**/*.h'
+  end
 end
