@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JWBasicFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JWBasicFoundation.'
 
 # This description is used to generate tags and improve search results.
@@ -57,5 +57,9 @@ TODO: Add long description of the pod here.
   s.subspec 'NSString' do |nSString|
     nSString.source_files = 'JWBasicFoundation/Classes/NSString/**/*.{h,m}'
     nSString.public_header_files = 'JWBasicFoundation/Classes/NSString/**/*.h'
+  end
+  s.subspec 'NSTimer' do |ss|
+    ss.source_files = 'JWBasicFoundation/Classes/NSTimer/**/*.{h,m}'
+    ss.public_header_files = 'JWBasicFoundation/Classes/NSTimer/**/*.h'
   end
 end

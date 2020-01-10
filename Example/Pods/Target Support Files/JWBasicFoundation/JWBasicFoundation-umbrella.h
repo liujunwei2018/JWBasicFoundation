@@ -20,6 +20,7 @@
 #import "NSMutableDictionary+JW.h"
 #import "NSNotificationCenter+JW.h"
 #import "NSString+JW.h"
+#import "JWWeakTimer.h"
 
 FOUNDATION_EXPORT double JWBasicFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char JWBasicFoundationVersionString[];

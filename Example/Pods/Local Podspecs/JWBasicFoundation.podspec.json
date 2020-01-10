@@ -55,6 +55,11 @@
       "name": "NSString",
       "source_files": "JWBasicFoundation/Classes/NSString/**/*.{h,m}",
       "public_header_files": "JWBasicFoundation/Classes/NSString/**/*.h"
+    },
+    {
+      "name": "NSTimer",
+      "source_files": "JWBasicFoundation/Classes/NSTimer/**/*.{h,m}",
+      "public_header_files": "JWBasicFoundation/Classes/NSTimer/**/*.h"
     }
   ]
 }
