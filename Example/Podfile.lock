@@ -1,21 +1,21 @@
 PODS:
-  - JWBasicFoundation (0.1.0):
-    - JWBasicFoundation/NSArray (= 0.1.0)
-    - JWBasicFoundation/NSData (= 0.1.0)
-    - JWBasicFoundation/NSDate (= 0.1.0)
-    - JWBasicFoundation/NSDictionary (= 0.1.0)
-    - JWBasicFoundation/NSNotificationCenter (= 0.1.0)
-    - JWBasicFoundation/NSString (= 0.1.0)
-    - JWBasicFoundation/NSTimer (= 0.1.0)
-  - JWBasicFoundation/NSArray (0.1.0):
-    - JWBasicFoundation/NSArray/NSMutableArray (= 0.1.0)
-  - JWBasicFoundation/NSArray/NSMutableArray (0.1.0)
-  - JWBasicFoundation/NSData (0.1.0)
-  - JWBasicFoundation/NSDate (0.1.0)
-  - JWBasicFoundation/NSDictionary (0.1.0)
-  - JWBasicFoundation/NSNotificationCenter (0.1.0)
-  - JWBasicFoundation/NSString (0.1.0)
-  - JWBasicFoundation/NSTimer (0.1.0)
+  - JWBasicFoundation (0.1.1):
+    - JWBasicFoundation/NSArray (= 0.1.1)
+    - JWBasicFoundation/NSData (= 0.1.1)
+    - JWBasicFoundation/NSDate (= 0.1.1)
+    - JWBasicFoundation/NSDictionary (= 0.1.1)
+    - JWBasicFoundation/NSNotificationCenter (= 0.1.1)
+    - JWBasicFoundation/NSString (= 0.1.1)
+    - JWBasicFoundation/NSTimer (= 0.1.1)
+  - JWBasicFoundation/NSArray (0.1.1):
+    - JWBasicFoundation/NSArray/NSMutableArray (= 0.1.1)
+  - JWBasicFoundation/NSArray/NSMutableArray (0.1.1)
+  - JWBasicFoundation/NSData (0.1.1)
+  - JWBasicFoundation/NSDate (0.1.1)
+  - JWBasicFoundation/NSDictionary (0.1.1)
+  - JWBasicFoundation/NSNotificationCenter (0.1.1)
+  - JWBasicFoundation/NSString (0.1.1)
+  - JWBasicFoundation/NSTimer (0.1.1)
 
 DEPENDENCIES:
   - JWBasicFoundation (from `../`)
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWBasicFoundation: 6d9ae8e018343c36cffe384de24a275acaa7330f
+  JWBasicFoundation: 8de38f5b8fab7873fb9416d49cef61a8218a40cd
 
 PODFILE CHECKSUM: 9c8fc5d68116dfac513eceb4e19d703ae58144c8
 

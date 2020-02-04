@@ -8,13 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface JWWeakTimer : NSObject
 
 /**
- * 避免计时器循环引用self;
- * 参照NSTimer穿参
+ * 避免计时器循环引用 self
+ * 参照 NSTimer 传参
  */
 + (NSTimer *)jw_scheduledTimerWithTimeInterval:(NSTimeInterval)interval
                                       target:(id)aTarget
@@ -24,4 +22,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END

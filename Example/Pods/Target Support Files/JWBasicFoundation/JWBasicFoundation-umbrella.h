@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JWBasicFoundation.h"
 #import "NSArray+Blank.h"
 #import "NSArray+JW.h"
 #import "NSMutableArray+JW.h"

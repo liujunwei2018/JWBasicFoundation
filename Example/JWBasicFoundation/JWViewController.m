@@ -7,8 +7,11 @@
 //
 
 #import "JWViewController.h"
+#import <JWWeakTimer.h>
 
 @interface JWViewController ()
+
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -18,6 +21,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.timer = [JWWeakTimer jw_scheduledTimerWithTimeInterval:2 target:self selector:@selector(test) userInfo:nil repeats:YES];
+    
+}
+
+- (void)test {
+    
 }
 
 - (void)didReceiveMemoryWarning
